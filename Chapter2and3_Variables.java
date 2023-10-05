@@ -1,6 +1,8 @@
-public class Chapter2_Variables {
+public class Chapter2and3_Variables {
 
     public static void main(String[] args) {
+
+        //CHAPTER 2
 
         //primitive and references data types - 5 main ones
         /*primitive
@@ -29,5 +31,18 @@ public class Chapter2_Variables {
         System.out.println(z);
         System.out.println(symbol);
         System.out.println("My name is " + name);
+
+        //CHAPTER 3
+
+        String a = "Water";
+        String b = "Kool-Aid";
+        String temp; //same as declaring it a null
+
+        temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println("a: " +a);
+        System.out.println("b: "+b);
     }
 }
