@@ -4,7 +4,7 @@ public class Chapter9_if_statements {
 
         //if statement performs a block of code if it's condition is true
 
-        int age = 75;
+        int age = 45;
 
         if (age>=75) {
             System.out.println("ok boomer");

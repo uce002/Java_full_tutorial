@@ -11,6 +11,8 @@ public class Chapter8_Random_numbers {
         boolean z = random.nextBoolean();
 
         System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
 
     }
 }
